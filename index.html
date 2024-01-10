@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="html, css, javascript">
+        <meta name="author" content="Tiago Jose">
+        <meta name="description" content="Aqui contem links para acessar resumos dos meus estudos acerca de desenvolvimento Web. Conceitos sobre html, css e javascript.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Estudos</title>
+        <script defer type="text/javascript" src="./validar-javascript-ativado.js">
+        </script>
+    </head>
+    <body class="javascript-deactivated">
+        <input type="checkbox" id="dark-mode-input">
+
+        <div class="all-content">
+            <header class="header-body fadeInDown center-grid" data-animate="50">
+                <h1><a class="title-header font-size-gg--bold" title="home" href="./index.html">Estudos</a></h1>
+                <section class="accessibility-menu">
+                    <div class="wrapper-light-dark-toggle">
+                        <label for="dark-mode-input" class="light-dark-toggle" title="alternar entre escuro ou claro"></label>
+                    </div>
+                </section>
+            </header>
+            <main class="main-body center-grid">
+                <nav data-animate="100" class="fadeInDown">
+                    <h2  class="title-main font-size-g--bold">Lista de conteúdos:</h2>
+                    <ul class="ul-nav font-size-p--bold">
+                        <li class="li-nav fadeInRight" data-animate="250">
+                            <a class="a-nav" href="./pages/pseudo-elementos-e-pseudo-classes.html" title="ir para o conteúdo">Pseudo-Elementos e Pseudo-Classes</a>
+                        </li>
+                    </ul>
+                    <div class="pagination-controls font-size-p--bold" data-animate="550">
+                        <button class="button start" title="inínio">&laquo;</button>
+                        <button class="button prev" title="voltar">&lsaquo;</button>
+                        <button class="button next" title="próximo">&rsaquo;</button>
+                        <button class="button final" title="final">&raquo;</button>
+                    </div>
+                </nav>
+            </main>
+        </div>
+        <script type="text/javascript" src="./pagination.js">
+        </script>
+        <script type="text/javascript" src="./script.js">
+        </script>
+    </body>
+</html>
