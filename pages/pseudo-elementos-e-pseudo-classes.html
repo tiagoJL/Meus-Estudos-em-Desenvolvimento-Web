@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="html, css, javascript">
+        <meta name="author" content="Tiago Jose">
+        <meta name="description" content="Um resumo sobre pseudo-elementos e pseudo-classes.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Estudos | Pseudo-Classes & Pseudo-Elementos</title>
+        <script defer type="text/javascript" src="../validar-javascript-ativado.js"></script>
+    </head>
+    <body class="javascript-deactivated">
+        <input type="checkbox" id="dark-mode-input">
+
+        <div class="all-content">
+            <header class="header-body center-grid fadeInDown" data-animate="50">
+                <h1>
+                    <a class="title-header font-size-gg--bold" href="../index.html" title="home">Estudos</a>
+                </h1>
+                <section class="accessibility-menu">
+                    <div class="wrapper-light-dark-toggle">
+                        <label for="dark-mode-input" class="light-dark-toggle" title="alternar entre escuro ou claro"></label>
+                    </div>
+                </section>
+            </header>
+            <main class="main-body center-grid">
+                <article class="fadeInDown font-size-p" data-animate="100">
+                    
+                    <h2 class="title-main font-size-g--bold">Pseudo-Elementos & Pseudo-Classes</h2>
+                    <dl class="definition-list">
+                        <div class="separate-list">
+                            <dt class="title-secondary fadeInRight font-size-m--bold" data-animate="250">Pseudo-Elementos:</dt>
+                            <dd class="description fadeInRight" data-animate="350">Pseudo-Elementos são agregadores de seletores que possibilitam a modificação de partes específicas de um seletor alvo. Por exemplo, a primeira linha <strong class="destaque">(::first-line)</strong>, a primeira letra <strong class="destaque">(::first-letter)</strong> e sua parte anterior <strong class="destaque">(::before)</strong>. Sua escrita inicia com dois dois-pontos (::). 
+                                <a class="external-link" title="ir para o site" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements" target="_blank">Link de Referência para Pseudo-elementos na <abbr title="Mozilla Developer Network">MDN</abbr>.</a>
+                            </dd>
+                        </div>
+                        <div class="separate-list">
+                            <dt class="title-secondary fadeInRight font-size-m--bold" data-animate="450">Pseudo-Classes:</dt>
+                            <dd class="description fadeInRight" data-animate="550">Pseudo-classes, assim como pseudo-elementos, são agregadores de seletores; contudo, seu objetivo se difere de pseudo-elementos em focar na modificação de elementos com base em sua posição <strong class="destaque">(:nth-child)</strong>, estado <strong class="destaque">(:invalid, :valid)</strong>, interação do usuário <strong class="destaque">(:hover)</strong> ou histórico de navegação <strong class="destaque">(:visited)</strong>. E, há também uma pequena diferença na escrita. Na Pseudo-classes é utilizada dois-pontos (:).
+                                <a class="external-link" title="ir para o site" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes" target="_blank">Link de Referência para Pseudo-Classes na <abbr title="Mozilla Developer Network">MDN</abbr>.</a>
+                            </dd>
+                        </div>
+                    </dl>
+                </article>
+            </main>
+        </div>
+        <script type="text/javascript" src="../script.js"></script>
+    </body>
+</html>
