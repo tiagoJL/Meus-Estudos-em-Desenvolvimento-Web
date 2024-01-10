@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+    .font-size-gg, .font-size-gg--bold {
+        font-size: 3rem;
+    }
+    
+    .font-size-g, .font-size-g--bold {
+        font-size: 1.8rem;
+    }
+    
+    .font-size-m, .font-size-m--bold {
+        font-size: 1.5rem;
+    }
+    
+    .font-size-p, .font-size-p--bold {
+        font-size: 1.3rem;
+    }
+
+    .header-body {
+        margin-bottom: 60px;
+    }
+
+    .title-secondary::before {
+        display: none;
+    }
+
+    .description, .title-secondary{
+        margin-left: 0;
+    }
+}

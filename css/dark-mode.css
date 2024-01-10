@@ -1,0 +1,15 @@
+#dark-mode-input:checked + .all-content  {
+    background-color: var(--cor-07);
+}
+
+#dark-mode-input:checked + .all-content .title-main {
+    color: var(--cor-03);
+}
+
+#dark-mode-input:checked + .all-content .external-link  {
+    color: var(--cor-07);
+}
+
+#dark-mode-input:checked + .all-content .main-body {
+    color: var(--cor-03);
+}

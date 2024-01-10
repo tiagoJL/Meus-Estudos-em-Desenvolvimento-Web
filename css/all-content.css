@@ -1,0 +1,17 @@
+.all-content {
+    display: grid;
+    grid-template-columns: auto minmax(auto, 1200px) auto;
+    align-content: start;
+    gap: 20px;
+    min-height: 100vh;
+    background-color: var(--cor-01);
+}
+
+.center-grid {
+    grid-column: 2/3;
+}
+
+*::selection {
+    background-color: var(--cor-04);
+    color: var(--cor-02);
+}

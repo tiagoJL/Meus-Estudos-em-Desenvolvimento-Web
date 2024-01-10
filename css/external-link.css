@@ -1,0 +1,34 @@
+.external-link {
+    background-color: var(--cor-06);
+    color:  var(--cor-02);
+    display: inline-block;
+    font-size: inherit;
+    font-weight: inherit;
+    position: relative;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 35px;
+    border-radius: 10px;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+
+.external-link:hover {
+    transform: scale(1.02);
+}
+
+.external-link::before {
+    content: " ";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    left: 5px;
+    background: url("../imagens/external-link-svgrepo-com.svg") no-repeat;
+}
+
+.external-link abbr {
+    color: currentColor;
+    border-bottom: 1px dashed currentColor;
+}

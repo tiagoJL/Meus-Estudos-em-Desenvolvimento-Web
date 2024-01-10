@@ -1,0 +1,21 @@
+[data-animate] {
+    opacity: 0;
+}
+
+.javascript-deactivated [data-animate] {
+    opacity: 1;
+}
+.fadeInDown {
+    transform: translate3d(0, -20px, 0);
+}
+
+.fadeInRight {
+    transform: translate3d(-20px, 0, 0);
+}
+
+.animate {
+    opacity: 1;
+    transform: none;
+    transition-property: all;
+    transition-duration: 0.8s;
+}

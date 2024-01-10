@@ -1,0 +1,90 @@
+.main-body {
+    color: var(--cor-04);
+    padding-bottom: 20px;
+}
+
+.main-body * {
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.title-main {
+    color: var(--cor-04);
+}
+
+.title-secondary {
+    color: var(--cor-06);
+    margin: 20px 35px;    
+    position: relative;
+}
+
+.title-secondary::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    left: -15px;
+    top: 10px;
+    background-color: currentColor;
+    border-radius: 50%;
+}
+
+.definition-list {
+    max-width: 60ch;
+}
+
+.separate-list {
+    margin-bottom: 35px;
+}
+
+.description {
+    display: inline-block;
+    margin-left: 60px;
+    line-height: 2rem;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+.ul-nav {
+    margin: 15px;
+    margin-bottom: 35px;
+    min-height: 350px;
+}
+
+.li-nav {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    color: var(--cor-06);
+}
+
+.pagination-controls {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: var(--cor-04);
+    color: var(--cor-01);
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.goToButton {
+    padding: 10px 15px;
+}
+
+.goToButton--active {
+    transform: scale(1.2);
+    background-color: var(--cor-06);
+}

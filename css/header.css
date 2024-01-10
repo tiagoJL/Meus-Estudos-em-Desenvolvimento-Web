@@ -1,0 +1,15 @@
+.header-body {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px dashed var(--cor-06);
+    padding: 10px 0;
+    margin-bottom: 100px;
+}
+
+.title-header {
+    display: inline-block;
+    color: var(--cor-06);
+    font-family: inherit;   
+}

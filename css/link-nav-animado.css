@@ -1,0 +1,51 @@
+.a-nav {
+    display: block;
+    position: relative;
+    max-width: max-content;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: var(--cor-link-nav);
+    transform: scaleX(1);
+    transition-property: transform;
+    transition-duration: 0.2s;
+    outline: none;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.a-nav:hover, .a-nav:focus {
+    transform: scaleX(1.02);
+}
+
+.a-nav::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    top: 15px;
+    background: url(../imagens/iconmonstr-triangle-3.svg) no-repeat;
+    left: -5px;
+    transform: rotate(0deg);
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.a-nav:hover::before, .a-nav:focus::before {
+    transform: rotate(90deg);
+}
+
+.a-nav::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 20%;
+    height: 2.5px;
+    background-color: currentColor;
+    transition-property: width;
+    transition-duration: 0.3s;
+}
+
+.a-nav:hover::after, .a-nav:focus::after {
+    width: 40%;
+}
